@@ -1,0 +1,11 @@
+user_id,integration_id,login_id,password,first_name,last_name,full_name,sortable_name,short_name,email,status
+1555551,,lrice,,Lonnie,Rice,Lonnie Rice,"Rice, Lonnie",Lonnie Rice,lrice@institution-name.edu,active
+1555552,,jthompson,,Jan,Thompson,Jan Thompson,"Thompson, Jan",Jan Thompson,jthompson@institution-name.edu,active
+1555553,,rreeves,,Roger,Reeves,Roger Reeves,"Reeves, Roger",Roger Reeves,rreeves@institution-name.edu,active
+1555554,,wgriffin,,Warren,Griffin,Warren Griffin,"Griffin, Warren",Warren Griffin,wgriffin@institution-name.edu,active
+1555555,,tsanders,,Tammy,Sanders,Tammy Sanders,"Sanders, Tammy",Tammy Sanders,tsanders@institution-name.edu,active
+1555556,,cprice,,Carrie,Price,Carrie Price,"Price, Carrie",Carrie Price,cprice@institution-name.edu,active
+1555557,,abowers,,Alicia,Bowers,Alicia Bowers,"Bowers, Alicia",Alicia Bowers,abowers@institution-name.edu,active
+1555558,,eramsey,,Essie,Ramsey,Essie Ramsey,"Ramsey, Essie",Essie Ramsey,eramsey@institution-name.edu,active
+1555559,,lwillis,,Lila,Willis,Lila Willis,"Willis, Lila",Lila Willis,lwillis@institution-name.edu,active
+1555560,,csoto,,Corey,Soto,Corey Soto,"Soto, Corey",Corey Soto,csoto@institution-name.edu,active
