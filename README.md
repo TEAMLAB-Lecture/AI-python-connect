@@ -34,7 +34,7 @@ conda install nltk gensim matplotlib
 - Asterisk
 - Lab: Simple Linear algebra concepts
 - Lab: Simple Linear algebra codes
-- Assignment: Linear algebra with pythonic code
+- Assignment: [Linear algebra with pythonic code](https://github.com/blissray/connect_python/tree/master/lab_assignments/lab_1)
 - Assignment: [연산자 끼워넣기](https://www.acmicpc.net/problem/14891)
 - Assignment: [톱니바퀴](https://www.acmicpc.net/problem/14891)
 
