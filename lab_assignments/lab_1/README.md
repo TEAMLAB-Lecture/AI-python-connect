@@ -9,11 +9,10 @@ Copyright 2017 © document created by teamLab.gachon@gmail.com
 ## 숙제 파일(lab_bla.zip) 다운로드
 먼저 해야 할 일은 숙제 파일을 다운로드 받는 것 입니다. Chrome 또는 익스플로러와 같은 웹 브라우저 주소창에 아래 주소를 입력합니다.
 
- [https://github.com/TeamLab/introduction_to_python_TEAMLAB_MOOC/blob/master/lab_assignment/lab_bla/lab_bla.zip](https://github.com/TeamLab/introduction_to_python_TEAMLAB_MOOC/blob/master/lab_assignment/lab_bla/lab_bla.zip)
+ [https://github.com/blissray/connect_python/blob/master/lab_assignments/lab_1/lab_bla.zip](https://github.com/blissray/connect_python/blob/master/lab_assignments/lab_1/lab_bla.zip)
 
- 다운로드를 위해 `View Raw` 또는 `Download` 버튼을 클릭합니다. 또는 아래 다운로드 링크를 클릭하면 자동으로 다운로드가 됩니다. [Lab morsecode - 다운로드](https://github.com/TeamLab/introduction_to_python_TEAMLAB_MOOC/raw/master/lab_assignment/lab_bla/lab_bla.zip)
+ 다운로드를 위해 `View Raw` 또는 `Download` 버튼을 클릭합니다. 또는 아래 다운로드 링크를 클릭하면 자동으로 다운로드가 됩니다. [Lab bla - 다운로드](https://github.com/blissray/connect_python/raw/master/lab_assignments/lab_1/lab_bla.zip)
  다운로드 된 `lab_bla.zip` 파일을 작업 폴더로 이동한 후 압축해제 후 작업하시길 바랍니다.
- 압축해제 하면 폴더가 `linux_mac`과 `windows`로 나눠져 있습니다. 자신의 OS에 맞는 폴더로 이동해서 코드를 수정해 주시기 바랍니다.
 
 
 ## basic_linear_algebra.py 코드 구조
@@ -365,25 +364,13 @@ print(matrix_product(matrix_x, matrix_x)) # Expected value: [[9, 15], [3, 6]]
 print(matrix_product(matrix_z, matrix_w)) # Expected value: False
 ```
 
-
-### 숙제 template 파일 제출하기 (윈도우의 경우)
-1. <kbd>windows</kbd><sup id="windows"></sup>+<kbd>r</kbd>를 누르고 cmd 입력 후 확인을 클릭합니다.
-2. 작업을 수행한 폴더로 이동 합니다.
-3. 밑에 명령어를 cmd창에 입력합니다.
-```bash
-install.bat
-submit.bat [YOUR_HASH_KEY]
+## 숙제 제출하기
+모든 함수를 다 수정했다면, 아래와 같이 제출하면 되니다.
+```python
+ python submit.py
 ```
+`ID`는 `teamlab.test`로 `비밀번호`는 `test1234`로 넣어주시기 바랍니다.
 
-### 숙제 template 파일 제출하기 (Mac or Linux)
-1. 터미널을 구동합니다.
-2. 작업을 수행한 디렉토리로로 이동 합니다.
-3. 밑에 bash창을 입력합니다.
-```bash
-bash install.sh
-bash submit.sh [YOUR_HASH_KEY]
-```
-> backend.ai 서비스의 업데이트에 의해 실행전 반드시 `bash install.sh` 또는 `install.bat` 수행을 바랍니다.
 
 ## Next Work
 고생하셨습니다. 처음 해보는 거라 너무 생소하게 느꼈을 가능성이 클거라고 생각합니다. "너무 어렵다"라는 말도 많이 했을 거 같습니다. 이제 파이썬은 왠만큼 하실 수 있게 되셨습니다. 축하합니다.
