@@ -6,30 +6,22 @@ Copyright 2018 © document created by teamLab.gachon@gmail.com
 
 [PDF 파일 다운로드](https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/mooc_pic/build_matrix.pdf)
 
-Machin Learning의 두 번째 랩은 Pandas와 Numpy를 활용하여 Rating Matrix 또는 Frequent Matrix를 만드는 것입니다. 추천 시스템 개발 등 머신러닝을 하다 보면 누가, 어떤 물건(또는 서비스)를 얼마나 이용하고 평가 하였는 가를 Matrix 형태로 변형하여 분석하는 일이 많은데 이를 위한 전처리 과정이 필요합니다. 흔한 예제로 생각해보면 영화를 본 사용자들이 각 영화를 평가한 별점 점수를 Matrix 형태로 표현하는 것이 있습니다. 일반적으로 데이터 베이스는 저장 공간의 효율성을 위해 Matrix 형태로 저장하는 것이 아니라 Event과 발생한 정보를 Row 단위로 저장합니다. 이렇게 DB에 쌓인 정보를 Matrix로 변환하는 게 이번 랩의 목표입니다. 실제 데이터의 변환은 아래 그림과 같습니다.
+두 번째 랩은 Pandas와 Numpy를 활용하여 Rating Matrix 또는 Frequent Matrix를 만드는 것입니다. 추천 시스템 개발 등 머신러닝을 하다 보면 누가, 어떤 물건(또는 서비스)를 얼마나 이용하고 평가 하였는 가를 Matrix 형태로 변형하여 분석하는 일이 많은데 이를 위한 전처리 과정이 필요합니다. 흔한 예제로 생각해보면 영화를 본 사용자들이 각 영화를 평가한 별점 점수를 Matrix 형태로 표현하는 것이 있습니다. 일반적으로 데이터 베이스는 저장 공간의 효율성을 위해 Matrix 형태로 저장하는 것이 아니라 Event과 발생한 정보를 Row 단위로 저장합니다. 이렇게 DB에 쌓인 정보를 Matrix로 변환하는 게 이번 랩의 목표입니다. 실제 데이터의 변환은 아래 그림과 같습니다.
 
 ![matrix](images/2018/01/matrix.png)
-
-## backend.ai 설치
-숙제를 제출하기 앞서, [레블업](http://www.lablup.com/)의 backend.ai를 여러분의 파이썬에 설치하셔야 합니다. 설치하는 과정은 매우 쉽습니다. 아래처럼 터미널 또는 cmd 창에서 입력을 하시면 됩니다.
-
-```bash
-pip install backend.ai-client
-```
 
 ## 숙제 파일(lab_bulid_matrix.zip) 다운로드
  먼저 해야 할 일은 숙제 파일을 다운로드 받는 것 입니다. 아래링크를 다운로드 하거나 Chrome 또는 익스플로러와 같은 웹 브라우저 주소창에 아래 주소를 입력합니다.
 
- - 링크 [2_lab_bulid_matrix.zip](https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/mooc_pic/2_lab_build_matrix.zip)
- - https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/mooc_pic/2_lab_build_matrix.zip
+ - 링크 [3_lab_bulid_matrix.zip](https://github.com/blissray/connect_python/raw/master/lab_assignments/lab_3/3_lab_bulid_matrix.zip)
+ - https://github.com/blissray/connect_python/raw/master/lab_assignments/lab_3/3_lab_bulid_matrix.zip
 
  또는 Mac OS에서는 아래 명령을 쓰셔도 됩니다.
  ```bash
- wget https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/mooc_pic/2_lab_bulid_matrix.zip
+ wget https://github.com/blissray/connect_python/raw/master/lab_assignments/lab_3/3_lab_bulid_matrix.zip
  ```
 
- 다운로드 된 `2_lab_bulid_matrix.zip` 파일을 작업 폴더로 이동한 후 압축해제 후 작업하시길 바랍니다.
- 압축해제 하면 폴더가 `linux_mac`과 `windows`로 나눠져 있습니다. 자신의 OS에 맞는 폴더로 이동해서 코드를 수정해 주시기 바랍니다.
+ 다운로드 된 `3_lab_bulid_matrix.zip` 파일을 작업 폴더로 이동한 후 압축해제 후 작업하시길 바랍니다.
 
 
 ## bulid_matrix.py 코드 구조
@@ -142,26 +134,14 @@ array([[ 19.,  17.,  14.,  11.,  17.,  25.,   7.,  22.,   5.,  18.,  10.,
          13.,  20.,  14.,  18.,  21.,   3.]], dtype=float32)
 ```
 
-### 숙제 template 파일 제출하기 (윈도우의 경우)
-1. <kbd>windows</kbd><sup id="windows"></sup>+<kbd>r</kbd>를 누르고 cmd 입력 후 확인을 클릭합니다.
-2. 작업을 수행한 폴더로 이동 합니다.
-3. 밑에 명령어를 cmd창에 입력합니다.
-```bash
-install.bat
-submit.bat [YOUR_HASH_KEY]
+## 숙제 제출하기
+모든 함수를 다 수정했다면, 아래와 같이 제출하면 되니다.
+```python
+python submit.py
 ```
-
-### 숙제 template 파일 제출하기 (Mac or Linux)
-1. 터미널을 구동합니다.
-2. 작업을 수행한 디렉토리로로 이동 합니다.
-3. 밑에 bash창을 입력합니다.
-```bash
-bash install.sh
-bash submit.sh [YOUR_HASH_KEY]
-```
-> backend.ai 서비스의 업데이트에 의해 실행전 반드시 `bash install.sh` 또는 `install.bat` 수행을 바랍니다.
+`ID`는 `teamlab.test`로 `비밀번호`는 `test1234`로 넣어주시기 바랍니다.
 
 ## Next Work
-고생하셨습니다. Numpy와 Pandas를 함께 해야함 성공할 수 있는 랩입니다. 아직 Matrix와 Vector 데이터를 핸들링하는 방법이 익숙하지 않았다면 상당히 어렵게 푸셨을 것 같습니다. 그럼에도 불구하고, 우리는 계속 전진해야 합니다. Code가 당신과 함께 하길...
+고생하셨습니다. Numpy와 Pandas를 함께 해야함 성공할 수 있는 랩입니다. 아직 Matrix와 Vector 데이터를 핸들링하는 방법이 익숙하지 않았다면 상당히 어렵게 해결 하셨을 것 같습니다. 그럼에도 불구하고, 우리는 계속 전진해야 합니다. Code가 당신과 함께 하길...
 
 > **Human knowledge belongs to the world** - from movie 'Password' -
