@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 
 .ipynb_checkpoints/
+/lecture_note/*
 
 # C extensions
 *.so
