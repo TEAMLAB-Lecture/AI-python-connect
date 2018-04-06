@@ -7,9 +7,6 @@
 * 강좌명: 머신러닝/딥러닝을 위한 Python
 * 강의자명: 가천대학교 산업경영공학과 최성철 교수 (sc82.choi@gachon.ac.kr, Director of [TEAMLAB](http://theteamlab.io/))
 * Email: teamlab.gachon@gmail.com
-* 라인 스퀘어: 커넥트-파이썬 (라인 설치 필수)
-  - URL : https://line.me/ti/g2/DSMKB9E8K8
-  - ![QR 코드](QrCode.jpg)
 
 ## 강의구성
 ### Chapter 0 - Environment setup
