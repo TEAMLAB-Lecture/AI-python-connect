@@ -13,12 +13,12 @@ Copyright 2018 © document created by teamLab.gachon@gmail.com
 ## 숙제 파일(lab_bulid_matrix.zip) 다운로드
  먼저 해야 할 일은 숙제 파일을 다운로드 받는 것 입니다. 아래링크를 다운로드 하거나 Chrome 또는 익스플로러와 같은 웹 브라우저 주소창에 아래 주소를 입력합니다.
 
- - 링크 [3_lab_bulid_matrix.zip](https://github.com/blissray/connect_python/raw/master/lab_assignments/lab_3/3_lab_bulid_matrix.zip)
- - https://github.com/blissray/connect_python/raw/master/lab_assignments/lab_3/3_lab_bulid_matrix.zip
+ - 링크 [3_lab_bulid_matrix.zip](https://github.com/TEAMLAB-Lecture/AI-python-connect/raw/master/lab_assignments/lab_3/3_lab_bulid_matrix.zip)
+ - https://github.com/TEAMLAB-Lecture/AI-python-connect/raw/master/lab_assignments/lab_3/3_lab_bulid_matrix.zip
 
  또는 Mac OS에서는 아래 명령을 쓰셔도 됩니다.
  ```bash
- wget https://github.com/blissray/connect_python/raw/master/lab_assignments/lab_3/3_lab_bulid_matrix.zip
+ wget https://github.com/TEAMLAB-Lecture/AI-python-connect/raw/master/lab_assignments/lab_3/3_lab_bulid_matrix.zip
  ```
 
  다운로드 된 `3_lab_bulid_matrix.zip` 파일을 작업 폴더로 이동한 후 압축해제 후 작업하시길 바랍니다.
@@ -134,14 +134,8 @@ array([[ 19.,  17.,  14.,  11.,  17.,  25.,   7.,  22.,   5.,  18.,  10.,
          13.,  20.,  14.,  18.,  21.,   3.]], dtype=float32)
 ```
 
-## 숙제 제출하기
-모든 함수를 다 수정했다면, 아래와 같이 제출하면 되니다.
-```python
-python submit.py
-```
-`ID`는 `teamlab.test`로 `비밀번호`는 `test1234`로 넣어주시기 바랍니다.
 
 ## Next Work
-고생하셨습니다. Numpy와 Pandas를 함께 해야함 성공할 수 있는 랩입니다. 아직 Matrix와 Vector 데이터를 핸들링하는 방법이 익숙하지 않았다면 상당히 어렵게 해결 하셨을 것 같습니다. 그럼에도 불구하고, 우리는 계속 전진해야 합니다. Code가 당신과 함께 하길...
+고생하셨습니다. Numpy와 Pandas를 함께 해야만 성공할 수 있는 랩입니다. 아직 Matrix와 Vector 데이터를 핸들링하는 방법이 익숙하지 않았다면 상당히 어렵게 해결 하셨을 것 같습니다. 그럼에도 불구하고, 우리는 계속 전진해야 합니다. Code가 당신과 함께 하길...
 
 > **Human knowledge belongs to the world** - from movie 'Password' -

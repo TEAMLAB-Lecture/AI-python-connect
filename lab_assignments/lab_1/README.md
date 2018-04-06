@@ -9,9 +9,9 @@ Copyright 2017 © document created by teamLab.gachon@gmail.com
 ## 숙제 파일(lab_bla.zip) 다운로드
 먼저 해야 할 일은 숙제 파일을 다운로드 받는 것 입니다. Chrome 또는 익스플로러와 같은 웹 브라우저 주소창에 아래 주소를 입력합니다.
 
- [https://github.com/blissray/connect_python/blob/master/lab_assignments/lab_1/lab_bla.zip](https://github.com/blissray/connect_python/blob/master/lab_assignments/lab_1/lab_bla.zip)
+ [https://github.com/TEAMLAB-Lecture/AI-python-connect/blob/master/lab_assignments/lab_1/lab_bla.zip](https://github.com/TEAMLAB-Lecture/AI-python-connect/blob/master/lab_assignments/lab_1/lab_bla.zip)
 
- 다운로드를 위해 `View Raw` 또는 `Download` 버튼을 클릭합니다. 또는 아래 다운로드 링크를 클릭하면 자동으로 다운로드가 됩니다. [Lab bla - 다운로드](https://github.com/blissray/connect_python/raw/master/lab_assignments/lab_1/lab_bla.zip)
+ 다운로드를 위해 `View Raw` 또는 `Download` 버튼을 클릭합니다. 또는 아래 다운로드 링크를 클릭하면 자동으로 다운로드가 됩니다. [Lab bla - 다운로드](https://github.com/TEAMLAB-Lecture/AI-python-connect/raw/master/lab_assignments/lab_1/lab_bla.zip)
  다운로드 된 `lab_bla.zip` 파일을 작업 폴더로 이동한 후 압축해제 후 작업하시길 바랍니다.
 
 
@@ -363,13 +363,6 @@ print(matrix_product(matrix_z, matrix_x)) # Expected value: [[8, 14], [13, 28], 
 print(matrix_product(matrix_x, matrix_x)) # Expected value: [[9, 15], [3, 6]]
 print(matrix_product(matrix_z, matrix_w)) # Expected value: False
 ```
-
-## 숙제 제출하기
-모든 함수를 다 수정했다면, 아래와 같이 제출하면 되니다.
-```python
- python submit.py
-```
-`ID`는 `teamlab.test`로 `비밀번호`는 `test1234`로 넣어주시기 바랍니다.
 
 
 ## Next Work
