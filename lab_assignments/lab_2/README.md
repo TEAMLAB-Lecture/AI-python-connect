@@ -7,10 +7,10 @@ Copyright 2018 © document created by teamLab.gachon@gmail.com
 두 번째 LAB은 Numpy 입니다. Numpy 강의는 사실 그냥 보고만 있으면, 그렇게 어렵지 않게 이해할 수 있습니다. 그러나 실제로 문제를 풀다보면 잘 못하는 경우가 굉장히 많습니다. 그런 사태를 미연에 방지하기 위해 한번 도전해 보도록 합시다.
 
 ## 숙제 파일(lab_numpy.zip) 다운로드
- 먼저 해야 할 일은 숙제 파일을 다운로드 받는 것 입니다. 아래링크를 다운로드 하거나 Chrome 또는 익스플로러와 같은 웹 브라우저 주소창에 아래 주소를 입력합니다.
+ 먼저 해야 할 일은 숙제 파일을 다운로드 받는 것 입니다. 아래 링크를 다운로드 하거나 Chrome 또는 익스플로러와 같은 웹 브라우저 주소창에 아래 주소를 입력합니다.
 
- - 링크 [lab_numpy.zip](https://github.com/blissray/connect_python/blob/master/lab_assignments/lab_2/2_lab_numpy.zip)
- - https://github.com/blissray/connect_python/blob/master/lab_assignments/lab_2/2_lab_numpy.zip
+ - 링크 [lab_numpy.zip](https://github.com/TEAMLAB-Lecture/AI-python-connect/raw/master/lab_assignments/lab_2/2_lab_numpy.zip)
+ - https://github.com/TEAMLAB-Lecture/AI-python-connect/raw/master/lab_assignments/lab_2/2_lab_numpy.zip
 
 
 ## numpy_lab.py 코드 구조
@@ -271,13 +271,6 @@ array([ 0.98935239,  0.98494578,  0.98317255])
 array([ 0.98935239,  0.98494578,  0.98317255,  0.96859596,  0.96485649])
 # 출력되는 값은 random 하게 바뀜
 ```    
-
-## 숙제 제출하기
-모든 함수를 다 수정했다면, 아래와 같이 제출하면 되니다.
-```python
- python submit.py
-```
-`ID`는 `teamlab.test`로 `비밀번호`는 `test1234`로 넣어주시기 바랍니다.
 
 
 ## Next Work
