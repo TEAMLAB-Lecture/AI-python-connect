@@ -41,5 +41,5 @@ def asterisk_test(a, b, c, d, e=0):
     print(a, b, c, d, e)
 
 
-data = {"d":1 , "c":2, "b":3, "f"=56}
+data = {"d":1 , "c":2, "b":3, "e":56}
 asterisk_test(10, **data)
