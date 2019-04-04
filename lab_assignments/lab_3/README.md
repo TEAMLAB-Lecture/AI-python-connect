@@ -89,7 +89,7 @@ source,target
 5|20
 3|48
 
-본 함수에서는 기존 함수와 달리 Rating column이 없습니다. 대시신 source와 target의 조합이 한 개 이상으로 중복될 수 있고, 이것이 Frequent로 처리해야 합니다. 즉 Rating이 명시적으로 있는게 아니라 데이터를 통해 Frequent를 찾아내는 것이 목적입니다. Matrix 형태로 바꾸는 규칙은 다음과 같습니다.
+본 함수에서는 기존 함수와 달리 Rating column이 없습니다. 대신 source와 target의 조합이 한 개 이상으로 중복될 수 있고, 이것이 Frequent로 처리해야 합니다. 즉 Rating이 명시적으로 있는게 아니라 데이터를 통해 Frequent를 찾아내는 것이 목적입니다. Matrix 형태로 바꾸는 규칙은 다음과 같습니다.
 - source는 row, target은 column의 기준이 된다.
 - source와 target의 정렬된 값을 활용하여 index를 설정한다. 즉 위 Table에서는 `1`은 row의 0번째 index로 설정된다.
 - Source와 Target이 출현한 정보는 Frequent로 Matrix에서 각 Element 값에 할당되어야 한다.
